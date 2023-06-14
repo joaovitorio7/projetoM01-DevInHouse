@@ -56,8 +56,14 @@ body{
 
 .banner{
     background-image: url("/img/Devbanner.png");
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     background-size: cover;
     background-position: top 60% right;
+}
+
+/* Main */
+
+.conteudo-principal {
+    padding: 40px 80px;
 }
