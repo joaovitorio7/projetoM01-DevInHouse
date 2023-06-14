@@ -159,14 +159,17 @@ body{
     font-size: 18px;
 }
 
+/* Redes Sociais */
+
 .redes-sociais{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 5px 5px 30px rgb(169, 255, 206);
+    box-shadow: 5px 5px 30px rgb(255, 190, 190);
     padding: 5px;
-    margin: 10px 20px 10px 10px;
+    margin-bottom: 40px;
 }
+
 .redes-sociais h4{
     margin-left: 100px;
     color: #088178;
@@ -179,10 +182,29 @@ body{
 }
 
 .redes-sociais img{
-    padding: 5px;
-    width: 40px;    
+    padding: 3px;
+    width: 30px;    
 }
 
 .redes-sociais img:hover{
     box-shadow: 5px 5px 30px rgb(183, 185, 249);
+}
+
+.footer{
+background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .elementos-footer{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.footer .elementos-footer iframe{
+    padding: 20px 20px;
 }
