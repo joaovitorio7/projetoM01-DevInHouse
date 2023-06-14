@@ -190,8 +190,10 @@ body{
     box-shadow: 5px 5px 30px rgb(183, 185, 249);
 }
 
+/* Footer */
+
 .footer{
-background-color: #1a1a1a;
+    background-color: #706a6a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -205,6 +207,26 @@ background-color: #1a1a1a;
     margin: 20px 20px;
 }
 
-.footer .elementos-footer iframe{
-    padding: 20px 20px;
+.footer img{
+    box-shadow: 5px 20px 30px rgb(183, 185, 249);
+    margin: 100px;
+}
+.footer span{
+    margin: 20px;
+    color: white;
+}
+
+.footer p{
+    margin-right: 20px;
+    color: white;
+}
+
+.footer iframe{
+    width: 110vh;
+    padding: 40px 40px;
+    margin-left: 40px;    
+}
+.footer h2{
+    padding: 20px;
+    color: white;
 }
