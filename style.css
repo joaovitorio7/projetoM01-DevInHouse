@@ -5,6 +5,15 @@
     font-family: 'league spartan' sans-serif;
 }
 
+h6 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
 body{
     width: 100%;
 }
