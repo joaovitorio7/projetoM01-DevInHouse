@@ -42,3 +42,13 @@ body{
 .navbar li a:hover{
     color: #088178 
 }
+
+/* Banner */
+
+.banner{
+    background-image: url("/img/Devbanner.png");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 60% right;
+}
