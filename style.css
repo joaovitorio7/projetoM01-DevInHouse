@@ -12,8 +12,15 @@ h6 {
 
 h4 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
 }
+
+p{
+    font-size: 16px;
+    color: green;
+    margin: 15px 0 20px 0;
+}
+
 body{
     width: 100%;
 }
@@ -66,4 +73,38 @@ body{
 
 .conteudo-principal {
     padding: 40px 80px;
+}
+
+.conteudo-principal .cards{
+    width: 200px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.07);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.conteudo-principal .cards:hover{
+    box-shadow: 10px 50px 44px rgba(0, 221, 255, 0.294);
+}
+
+.conteudo-principal .cards .remedio{
+    width: 80px;
+}
+
+.conteudo-principal .cards h6{
+    padding: 4px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #08817993;
+    background-color: #fddde4
+}
+
+.conteudo-principal .cards h4{
+    margin: 5px;
+}
+
+.conteudo-principal .cards .botao-comprar{
+        width: 200px;        
 }
