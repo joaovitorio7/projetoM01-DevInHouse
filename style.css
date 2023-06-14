@@ -71,21 +71,17 @@ body{
 
 /* Título: Medicamentos */
 .titulo{
-    padding-top: 30px;
-    display: grid;
-    position: relative;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    width: 500px;
+    padding: 30px;
+    margin-left: 30rem;
 }
 
 .titulo h1{
-    margin-left: 5px;
-    align-items: center;
-    justify-content: center;
     box-shadow: 5px 5px 30px rgb(169, 255, 206);
-    padding: 5px 10px;
+    padding: 10px;
     color: #088178;
-    font-size: 26px;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -133,6 +129,23 @@ body{
     width: 200px;        
 }
 
+.button{
+    display: flexbox;
+    background-color: #ff0d0d;
+    padding: 2px;
+    margin-left: 50px
+    box-shadow: 5px 5px 30px rgb(222, 60, 255);
+}
+
+.button button a{
+    font-size: 20px;
+    font-family: 'league spartan', Courier, monospace;
+    font-weight: 600;
+    padding: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
 /* Quem somos */
 
 .quem-somos h1{
@@ -164,9 +177,8 @@ body{
 .redes-sociais{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     box-shadow: 5px 5px 30px rgb(255, 190, 190);
-    padding: 5px;
+    padding: 3px;
     margin-bottom: 40px;
 }
 
@@ -174,15 +186,13 @@ body{
     margin-left: 100px;
     color: #088178;
     font-size: 18px;
-    padding: 5px;
 }
 
 .redes-sociais .icones{    
-    margin-right: 30px;
+    padding: 10px;
 }
 
 .redes-sociais img{
-    padding: 3px;
     width: 30px;    
 }
 
@@ -193,23 +203,22 @@ body{
 /* Footer */
 
 .footer{
-    background-color: #706a6a;
+    background-color: #4184ff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.footer .elementos-footer{ 
+.footer .elementos-footer{   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    margin: 20px 20px;
 }
 
 .footer img{
+    margin-left: 50px;
     box-shadow: 5px 20px 30px rgb(183, 185, 249);
-    margin: 100px;
+    
 }
 .footer span{
     margin: 20px;
@@ -223,9 +232,9 @@ body{
 
 .footer iframe{
     width: 110vh;
-    padding: 40px 40px;
-    margin-left: 40px;    
+   margin: 40px;  
 }
+
 .footer h2{
     padding: 20px;
     color: white;
