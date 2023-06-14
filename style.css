@@ -110,7 +110,7 @@ body{
 }
 
 .conteudo-principal .cards:hover{
-    box-shadow: 10px 50px 44px rgba(0, 221, 255, 0.294);
+    box-shadow: 10px 0px 44px rgba(0, 221, 255, 0.294);
 }
 
 .conteudo-principal .cards .remedio{
