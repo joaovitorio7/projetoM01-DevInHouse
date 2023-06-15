@@ -136,7 +136,8 @@ body{
 
 /* Quem somos */
 
-.quem-somos h1{
+#quem-somos h1{
+    margin-top: 30px;
     margin-left: 30rem;
     margin-right: 30rem;
     display: grid;
@@ -144,7 +145,7 @@ body{
     padding-top: 30rem;
 }
 
-.quem-somos h1{
+#quem-somos h1{
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 30px rgb(169, 255, 206);
@@ -153,7 +154,7 @@ body{
     font-size: 26px;
 }
 
-.quem-somos p{
+#quem-somos p{
     text-align: justify;
     margin: 50px;
     color: #1a1a1a;
