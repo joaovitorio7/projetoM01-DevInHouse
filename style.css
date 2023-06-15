@@ -165,27 +165,28 @@ body{
 .redes-sociais{
     display: flex;
     align-items: center;
+    justify-content: center;
     box-shadow: 5px 5px 30px rgb(255, 190, 190);
-    padding: 3px;
+    padding: 2px;
     margin-bottom: 40px;
 }
 
 .redes-sociais h4{
-    margin-left: 100px;
     color: #088178;
     font-size: 18px;
 }
 
 .redes-sociais .icones{    
-    padding: 10px;
+    padding: 2rem;
 }
 
 .redes-sociais img{
-    width: 30px;    
+    width: 30px; 
+    margin: 1rem;
 }
 
 .redes-sociais img:hover{
-    box-shadow: 5px 5px 30px rgb(183, 185, 249);
+    box-shadow: 5px 10px 30px rgb(27, 255, 87);
 }
 
 /* Footer */
