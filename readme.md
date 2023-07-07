@@ -9,40 +9,25 @@ O projeto possui as seguintes funcionalidades:
 
 - Visualização de produtos: Os usuários podem navegar pelo catálogo de produtos e visualizar informações relacionadas sobre cada item.
 
-
-- Validação de formulários: Os formulários de contato são validados para garantir que todas as informações necessárias sejam fornecidas corretamente.
-
 - Criação de uma estrutura e-commerce em html:
 Tags Doctype, head, meta, link, html, body, header, main, sections, h1, h2, h3, h4... div's, footer.
+
+-Criação de uma estrutura Css para estilização do Html;
+
+-Possui uma pasta Bootstrap com o projeto refeito em bootstrap;
 
 # Estrutura do Projeto
 O projeto está organizado da seguinte forma:
 
-CSS
+CSS;
+Html;
 
+Pasta Bootstrap;
 
-projetoM01-DevInHouse/<br>
-  - css/<br>
-    - style.css
- <br>
-  - img/<br>
-    - [imagens utilizadas no projeto]
-  |<br>
-  - htm/
-  <br>
-    - index.html
-    - products.html
-    - sobre.html
-    - contato.html
-<br>
-<br>
-- A pasta css/contém o arquivo style.css, que contém as regras de estilo para todas as páginas do projeto.
 
 - A pasta img/contém as imagens utilizadas no projeto.
 
 - Os arquivos index.html, products.html, cart.htmle checkout.htmlsão as páginas HTML que compõem o site.
-
-# Como Executar o Projeto
 
 ## Para executar o projeto localmente, siga as instruções abaixo:
 
@@ -50,11 +35,9 @@ projetoM01-DevInHouse/<br>
 
 >git clone https://github.com/JoaoVictorio/projetoM01-DevInHouse.git
 
-- Abra o arquivo index.htmlno seu navegador web.
-- Explore as diferentes páginas e funcionalidades do projeto.
+- Abra o arquivo index.html no seu navegador web.
 
-# contato
-Em caso de dúvidas ou sugestões, entre em contato com João Victorio via e-mail ou através do GitHub.
+- Explore as diferentes páginas e funcionalidades do projeto.
 
 
 ### Obrigado por conferir!
