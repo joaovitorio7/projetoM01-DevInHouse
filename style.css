@@ -93,6 +93,11 @@ body{
     box-shadow: 10px 0px 44px rgba(0, 221, 255, 0.294);
 }
 
+/* .conteudo-principal .cards span {
+    padding-top: 50px;
+    
+} */
+
 .conteudo-principal .cards .remedio{
     width: 80px;
 }
